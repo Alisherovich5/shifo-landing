@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import LanguageSwitcher from "@/components/SelectLanguage";
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, FormEvent, ChangeEvent } from "react";
 import axios from "axios";
 
 export default function Component() {
@@ -46,12 +46,14 @@ export default function Component() {
   const [formStatus, setFormStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (e) => {
+  // Handle input changes
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData((prev) => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = async (e) => {
+  // Handle form submission
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setFormStatus("");
@@ -63,7 +65,8 @@ export default function Component() {
         setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" });
       }
     } catch (error) {
-  console.log(error)
+      console.error("Form submission error:", error);
+      setFormStatus(t("contact.form.error"));
     } finally {
       setIsSubmitting(false);
     }
@@ -75,7 +78,7 @@ export default function Component() {
         <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-3">
-              <img className='w-28' src="/Logo.png" alt=""/>
+              <img className="w-28" src="/Logo.png" alt="Logo" />
             </Link>
 
             <div className="flex items-center space-x-4">
@@ -93,7 +96,7 @@ export default function Component() {
               <LanguageSwitcher />
             </div>
 
-            {/* Mobile menu button */}
+            {/* Mobile menu button (non-functional, add logic if needed) */}
             <button className="md:hidden p-2">
               <div className="w-5 h-5 flex flex-col justify-between">
                 <span className="w-full h-0.5 bg-gray-600"></span>
@@ -104,11 +107,11 @@ export default function Component() {
           </div>
         </header>
 
-        <main className="flex-1 pt-10">
+        <main className="flex-1 pt-16">
           {/* Hero Section */}
           <section className="w-full pt-12 sm:py-16 lg:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-              <div className=" flex justify-between lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-16 items-center">
                 <div className="text-center lg:text-left space-y-8">
                   <div className="space-y-6">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -169,8 +172,8 @@ export default function Component() {
                     </div>
                   </div>
                 </div>
-                <div className="">
-                  <img className="w-72 h-[580px]" src="/iPhone.png" alt=""/>
+                <div>
+                  <img className="w-72 h-[580px]" src="/iPhone.png" alt="iPhone" />
                 </div>
               </div>
             </div>
@@ -375,7 +378,7 @@ export default function Component() {
                     </Link>
                   </div>
 
-                  <div className="flex flex-col sm:grid sm:grid-cols-3 gap-4">
+                  <div className="flex flex-col sm:grid sm:grid-cols-2 gap-4">
                     <div className="text-center lg:text-left">
                       <div className="flex items-center justify-center lg:justify-start mb-2">
                         <Download className="w-5 h-5 text-blue-200 mr-2" />
@@ -394,9 +397,9 @@ export default function Component() {
                 </div>
 
                 <div className="flex justify-center">
-                    <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl text-center">
+                  <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl text-center">
                     <div className="w-48 bg-white h-48 p-4 rounded-xl flex items-center justify-center mx-auto mb-6">
-                      <img src="/qr.svg" alt=""/>
+                      <img src="/qr.svg" alt="QR Code" />
                     </div>
                     <h3 className="text-xl font-bold text-white mb-2">{t("download.qr_code.heading")}</h3>
                     <p className="text-blue-200">{t("download.qr_code.description")}</p>
@@ -585,9 +588,11 @@ export default function Component() {
               <div className="space-y-4">
                 <div className="flex items-center justify-start gap-2">
                   <div className="w-6 h-6 rounded-lg flex items-center justify-center">
-                    <img className="" src="/Logo1.png" alt=""/>
+                    <img className="" src="/Logo1.png" alt="Footer Logo" />
                   </div>
-                  <span className="text-xl font-bold text-white">Shifo<span className="text-blue-400">24</span></span>
+                  <span className="text-xl font-bold text-white">
+                  Shifo<span className="text-blue-400">24</span>
+                </span>
                 </div>
                 <p className="text-gray-400 text-sm">{t("footer.description")}</p>
               </div>

@@ -17,7 +17,7 @@
     "description": "Shifo24’ga ishonadigan minglab foydalanuvchilarga qo‘shiling. iOS va Android’da mavjud.",
     "appStore": "Yuklab oling",
     "appStore_continue": "App Store’dan",
-    "googlePlay": "Oling",
+    "googlePlay": "Yuklab oling",
     "googlePlay_continue": "Google Play’dan",
     "free": "Bepul",
     "support": "24/7",
@@ -147,7 +147,7 @@
         "message": "So‘rovingiz haqida batafsil yozing..."
       },
       "submit": "Xabar yuborish",
-      "submitting": "Отправка..."
+      "submitting": "Yuborilmoqda..."
     }
   },
   "footer": {
