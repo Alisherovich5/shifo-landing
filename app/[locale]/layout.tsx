@@ -1,6 +1,7 @@
 import "./globals.css";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import { ToastContainer } from 'react-toastify';
 
 export default async function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default async function RootLayout({
     <html lang="en">
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <ToastContainer />
           {children}
         </NextIntlClientProvider>
       </body>
