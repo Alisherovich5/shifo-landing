@@ -97,13 +97,13 @@ export default function Component() {
             </div>
 
             {/* Mobile menu button (non-functional, add logic if needed) */}
-            <button className="md:hidden p-2">
-              <div className="w-5 h-5 flex flex-col justify-between">
-                <span className="w-full h-0.5 bg-gray-600"></span>
-                <span className="w-full h-0.5 bg-gray-600"></span>
-                <span className="w-full h-0.5 bg-gray-600"></span>
-              </div>
-            </button>
+            {/*<button className="md:hidden p-2 lg:hidden  ">*/}
+            {/*  <div className="w-5 h-5 flex flex-col justify-between">*/}
+            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
+            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
+            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
+            {/*  </div>*/}
+            {/*</button>*/}
           </div>
         </header>
 
@@ -111,20 +111,22 @@ export default function Component() {
           {/* Hero Section */}
           <section className="w-full pt-12 sm:py-16 lg:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-16 items-center">
-                <div className="text-center lg:text-left space-y-8">
+              <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-16">
+                <div className="space-y-8 text-center lg:text-left">
                   <div className="space-y-6">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                       {t("hero.title")}
                       <br />
                       <span className="text-blue-600">{t("hero.title_continue")}</span>
                     </h1>
-                    <p className="text-lg sm:text-xl text-gray-600 max-w-2xl">{t("hero.description")}</p>
+                    <p className="text-lg sm:text-xl text-gray-600 text-center sm:text-start">
+                      {t("hero.description")}
+                    </p>
                   </div>
 
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                  <div className="flex  sm:flex gap-4 justify-center lg:justify-start">
                     <Link target="_blank" href="https://apps.apple.com/us/app/shifo24/id6748796668">
-                      <Button className="bg-black hover:bg-gray-800 text-white px-3 pr-5 py-3 rounded-xl gap-2 flex items-center justify-center">
+                      <Button className="bg-black hover:bg-gray-800 text-white px-3 pr-5 py-3 rounded-xl flex items-center gap-2 justify-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -175,8 +177,7 @@ export default function Component() {
                 <div>
                   <img className="w-72 h-[580px]" src="/iPhone.png" alt="iPhone" />
                 </div>
-              </div>
-            </div>
+              </div>            </div>
           </section>
 
           {/* Features Section */}
@@ -339,7 +340,7 @@ export default function Component() {
                     <p className="text-xl text-blue-100">{t("download.description")}</p>
                   </div>
 
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                  <div className="flex sm:flex gap-4 justify-center lg:justify-start">
                     <Link target="_blank" href="https://apps.apple.com/us/app/shifo24/id6748796668">
                       <Button className="bg-white hover:bg-gray-100 text-gray-900 px-3 pr-5 py-3 rounded-xl gap-2 flex items-center justify-center">
                         <svg
@@ -378,7 +379,7 @@ export default function Component() {
                     </Link>
                   </div>
 
-                  <div className="flex flex-col sm:grid sm:grid-cols-2 gap-4">
+                  <div className="flex items-center md:justify-center sm:justify-center   lg:justify-start gap-6 ">
                     <div className="text-center lg:text-left">
                       <div className="flex items-center justify-center lg:justify-start mb-2">
                         <Download className="w-5 h-5 text-blue-200 mr-2" />
