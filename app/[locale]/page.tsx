@@ -70,7 +70,7 @@ export default function Component() {
       !formData.subject.trim() ||
       !formData.message.trim()
     ) {
-      toast.error("❌ Iltimos, barcha maydonlarni to‘ldiring.");
+      toast.error("Iltimos, barcha maydonlarni to‘ldiring.");
       setIsSubmitting(false);
       return;
     }
@@ -84,18 +84,18 @@ export default function Component() {
   
     emailjs
       .send(
-        "service_6f4n09o", // misol: "service_9f8s87s"
-        "template_8z88ijl", // misol: "template_1a2b3c"
+        "service_6f4n09o",
+        "template_8z88ijl",
         templateParams,
-        "Lg_bhdUAe2SNft5fz" // misol: "6nNNNN0-abCDEFGHIJ"
+        "Lg_bhdUAe2SNft5fz"
       )
       .then(
         (result) => {
-          toast.success("✅ Muvaffaqiyatli yuborildi!");
+          toast.success(t("successfully_sent"));
           setFormData(initialFormData);
         },
         (error) => {
-          toast.error("❌ Yuborishda xatolik yuz berdi.");
+          toast.error("Yuborishda xatolik yuz berdi.");
           console.error(error);
         }
       )

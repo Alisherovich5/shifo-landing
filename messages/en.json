@@ -170,5 +170,6 @@
     "recent_activity": "Recent Activity",
     "consultation_completed": "Consultation completed",
     "doctor_name": "Dr. Sarah Johnson"
-  }
+  },
+  "successfully_sent": "Successfully sent!"
 }
