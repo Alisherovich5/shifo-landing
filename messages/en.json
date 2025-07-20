@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Healthcare",
+    "title_continue": "In Your Pocket",
+    "description": "Get instant access to certified doctors, AI-powered health insights, and personalized care.",
+    "rating": "App Rating",
+    "users": "Users",
+    "support": "Support"
+  },
+  "download": {
+    "title": "Download Shifo24 Today",
+    "description": "Join thousands of users who trust Shifo24. Available on iOS and Android.",
+    "appStore": "Download on",
+    "appStore_continue": "App Store",
+    "googlePlay": "Get it on",
+    "googlePlay_continue": "Google Play",
+    "free": "Free",
+    "support": "24/7",
+    "download": "Download & Setup",
+    "qr_code": {
+      "heading": "Scan to Download",
+      "description": "Point your camera at the QR code"
+    }
+  },
+  "features": {
+    "app": "App Features",
+    "sectionTitle": "Everything You Need",
+    "title_continue": "In One App",
+    "sectionDesc": "Comprehensive healthcare services designed for modern life, accessible anytime, anywhere.",
+    "item1": {
+      "title": "Video Consultations",
+      "description": "Connect with certified doctors through high-quality video calls, available 24/7.",
+      "feature1": "HD Video Quality",
+      "feature2": "Instant Messaging",
+      "feature3": "Digital Prescriptions"
+    },
+    "item2": {
+      "title": "Smart Scheduling",
+      "description": "AI-powered appointment booking with calendar sync and automated reminders.",
+      "feature1": "Calendar Integration",
+      "feature2": "Smart Reminders",
+      "feature3": "Easy Rescheduling"
+    },
+    "item3": {
+      "title": "Health Monitoring",
+      "description": "Track your vitals, symptoms, and medications with detailed insights.",
+      "feature1": "Vital Tracking",
+      "feature2": "Symptom Logger",
+      "feature3": "Progress Reports"
+    },
+    "item4": {
+      "title": "Digital Pharmacy",
+      "description": "Order prescriptions, set reminders, and track your medication history.",
+      "feature1": "Prescription Orders",
+      "feature2": "Medication Reminders",
+      "feature3": "Delivery Tracking"
+    },
+    "item5": {
+      "title": "Secure & Private",
+      "description": "HIPAA-compliant platform with end-to-end encryption and biometric security.",
+      "feature1": "Biometric Auth",
+      "feature2": "Data Encryption",
+      "feature3": "Privacy Controls"
+    },
+    "item6": {
+      "title": "Family Care",
+      "description": "Manage healthcare for your entire family with shared profiles and records.",
+      "feature1": "Family Profiles",
+      "feature2": "Shared Records",
+      "feature3": "Parental Controls"
+    }
+  },
+  "about": {
+    "about": "About Shifo24",
+    "sectionTitle": "Transforming Healthcare",
+    "title_continue": "Through Technology",
+    "description": "We combine cutting-edge technology with human expertise to deliver personalized healthcare experiences.",
+    "item1": {
+      "title": "Instant Access",
+      "description": "Connect with healthcare professionals within 60 seconds"
+    },
+    "item2": {
+      "title": "Transparent Pricing",
+      "description": "Clear, upfront costs with no hidden fees"
+    },
+    "item3": {
+      "title": "Complete Records",
+      "description": "Digital health history accessible from any device"
+    },
+    "stats": {
+      "heading": "Trusted Worldwide",
+      "description": "Join thousands of satisfied users",
+      "item1": {
+        "number": "100K+",
+        "label": "Patients Served"
+      },
+      "item2": {
+        "number": "500+",
+        "label": "Expert Doctors"
+      },
+      "item3": {
+        "number": "24/7",
+        "label": "Support Available"
+      },
+      "item4": {
+        "number": "98%",
+        "label": "Satisfaction Rate"
+      }
+    }
+  },
+  "contact": {
+    "app": "Get In Touch",
+    "sectionTitle": "Ready to Start Your",
+    "title_continue": "Health Journey?",
+    "description": "Our support team is available 24/7 to help you with any questions about your healthcare needs.",
+    "item1": {
+      "title": "24/7 Phone Support",
+      "description": "Immediate assistance for emergencies",
+      "contact": "+998958297555"
+    },
+    "item2": {
+      "title": "Email Support",
+      "description": "Response within 30 minutes",
+      "contact": "info@shifo24.com"
+    },
+    "item3": {
+      "title": "Medical Centers",
+      "description": "In-person consultations available",
+      "contact": "Sharof Rashidov, 20A"
+    },
+    "form": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "placeholder": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john@example.com",
+        "subject": "How can we help you?",
+        "message": "Tell us more about your inquiry..."
+      },
+      "submit": "Send Message",
+      "submitting": "Submitting..."
+    }
+  },
+  "footer": {
+    "description": "Revolutionizing healthcare through technology. Your health, our priority, available 24/7.",
+    "section1": {
+      "title": "Services",
+      "link1": "Features",
+      "link2": "About",
+      "link3": "Contact"
+    },
+
+    "copyright": "Shifo24. All rights reserved."
+  },
+  "mockup": {
+    "welcome": "Welcome Back!",
+    "dashboard": "Your health dashboard",
+    "consult": "Consult",
+    "pharmacy": "Pharmacy",
+    "health_score": "Health Score",
+    "recent_activity": "Recent Activity",
+    "consultation_completed": "Consultation completed",
+    "doctor_name": "Dr. Sarah Johnson"
+  }
+}

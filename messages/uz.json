@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "features": "Xususiyatlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Sog'liqni saqlash",
+    "title_continue": "Cho‘ntagingizda",
+    "description": "Sertifikatlangan shifokorlar, AI asosidagi sog‘liq tahlili va shaxsiy yordamga tezda ulaning.",
+    "rating": "Ilova reytingi",
+    "users": "Foydalanuvchilar",
+    "support": "Qo‘llab-quvvatlash"
+  },
+  "download": {
+    "title": "Shifo24 ilovasini yuklab oling",
+    "description": "Shifo24’ga ishonadigan minglab foydalanuvchilarga qo‘shiling. iOS va Android’da mavjud.",
+    "appStore": "Yuklab oling",
+    "appStore_continue": "App Store’dan",
+    "googlePlay": "Oling",
+    "googlePlay_continue": "Google Play’dan",
+    "free": "Bepul",
+    "support": "24/7",
+    "download": "Yuklab olish va sozlash",
+    "qr_code": {
+      "heading": "Yuklab olish uchun skanerlash",
+      "description": "Kamerangizni QR kodga tuting"
+    }
+  },
+  "features": {
+    "app": "Ilova xususiyatlari",
+    "sectionTitle": "Barchasi bir joyda",
+    "title_continue": "bitta ilovada",
+    "sectionDesc": "Zamonaviy hayotga moslashtirilgan keng qamrovli sog‘liqni saqlash xizmati – istalgan paytda, istalgan joyda.",
+    "item1": {
+      "title": "Video maslahatlar",
+      "description": "24/7 mavjud yuqori sifatli videoqo‘ng‘iroqlar orqali shifokorlar bilan bog‘laning.",
+      "feature1": "HD video sifati",
+      "feature2": "Tezkor xabar almashish",
+      "feature3": "Raqamli retseptlar"
+    },
+    "item2": {
+      "title": "Aqlli jadval",
+      "description": "AI asosida uchrashuv belgilash, kalendarga ulash va avtomatik eslatmalar.",
+      "feature1": "Kalendar bilan integratsiya",
+      "feature2": "Aqlli eslatmalar",
+      "feature3": "Oson o‘zgartirish"
+    },
+    "item3": {
+      "title": "Sog‘liqni monitoring qilish",
+      "description": "Hayotiy ko‘rsatkichlar, alomatlar va dori-darmonlarni kuzatish.",
+      "feature1": "Hayotiy ko‘rsatkichlar nazorati",
+      "feature2": "Alomatlar kundaligi",
+      "feature3": "Rivojlanish hisobotlari"
+    },
+    "item4": {
+      "title": "Raqamli dorixona",
+      "description": "Retseptlarni buyurtma qilish, eslatmalar o‘rnatish va dori tarixini ko‘rish.",
+      "feature1": "Retsept buyurtmalari",
+      "feature2": "Dori eslatmalari",
+      "feature3": "Yetkazib berishni kuzatish"
+    },
+    "item5": {
+      "title": "Xavfsiz va shaxsiy",
+      "description": "HIPAA standartlariga mos platforma: to‘liq shifrlash va biometrik xavfsizlik.",
+      "feature1": "Biometrik autentifikatsiya",
+      "feature2": "Ma’lumotlarni shifrlash",
+      "feature3": "Maxfiylik boshqaruvi"
+    },
+    "item6": {
+      "title": "Oilaviy parvarish",
+      "description": "Oila a’zolaringiz sog‘lig‘ini bir ilovada boshqaring.",
+      "feature1": "Oilaviy profillar",
+      "feature2": "Ulashilgan yozuvlar",
+      "feature3": "Ota-onalar nazorati"
+    }
+  },
+  "about": {
+    "about": "Shifo24 haqida",
+    "sectionTitle": "Texnologiya orqali",
+    "title_continue": "sog‘liqni o‘zgartirish",
+    "description": "Biz texnologiya va insoniy tajribani uyg‘unlashtirib, shaxsiylashtirilgan sog‘liqni ta’minlaymiz.",
+    "item1": {
+      "title": "Darhol ulanish",
+      "description": "60 soniya ichida shifokor bilan bog‘laning"
+    },
+    "item2": {
+      "title": "Shaffof narxlar",
+      "description": "Yashirin to‘lovlarsiz ochiq va tushunarli narxlar"
+    },
+    "item3": {
+      "title": "To‘liq tibbiy tarix",
+      "description": "Sog‘liq tarixi har qanday qurilmadan mavjud"
+    },
+    "stats": {
+      "heading": "Ishonchli xizmat",
+      "description": "Minglab mamnun foydalanuvchilar qatoriga qo‘shiling",
+      "item1": {
+        "number": "100K+",
+        "label": "Bemorlar xizmat ko‘rgan"
+      },
+      "item2": {
+        "number": "500+",
+        "label": "Tajribali shifokorlar"
+      },
+      "item3": {
+        "number": "24/7",
+        "label": "Doimiy yordam"
+      },
+      "item4": {
+        "number": "98%",
+        "label": "Mamnunlik darajasi"
+      }
+    }
+  },
+  "contact": {
+    "app": "Bog‘laning",
+    "sectionTitle": "Sog‘liq safaringizni",
+    "title_continue": "boshlashga tayyormisiz?",
+    "description": "Bizning qo‘llab-quvvatlash jamoamiz 24/7 sizga yordam berishga tayyor.",
+    "item1": {
+      "title": "24/7 telefon orqali yordam",
+      "description": "Favqulodda holatlar uchun zudlik bilan yordam",
+      "contact": "+998958297555"
+    },
+    "item2": {
+      "title": "Email orqali yordam",
+      "description": "30 daqiqa ichida javob beriladi",
+      "contact": "info@shifo24.com"
+    },
+    "item3": {
+      "title": "Tibbiyot markazlari",
+      "description": "Shaxsan maslahat olish imkoniyati",
+      "contact": "Sharof Rashidov, 20A"
+    },
+    "form": {
+      "first_name": "Ism",
+      "last_name": "Familiya",
+      "email": "Elektron pochta",
+      "subject": "Mavzu",
+      "message": "Xabar",
+      "placeholder": {
+        "first_name": "Ali",
+        "last_name": "Valiyev",
+        "email": "ali@example.com",
+        "subject": "Qanday yordam bera olamiz?",
+        "message": "So‘rovingiz haqida batafsil yozing..."
+      },
+      "submit": "Xabar yuborish",
+      "submitting": "Отправка..."
+    }
+  },
+  "footer": {
+    "description": "Texnologiya orqali sog‘liqni yaxshilash. Sog‘lig‘ingiz – bizning ustuvorligimiz, 24/7 mavjud.",
+    "section1": {
+      "title": "Xizmatlar",
+      "link1": "Xususiyatlar",
+      "link2": "Biz haqimizda",
+      "link3": "Aloqa"
+    },
+    "copyright": "Shifo24. Barcha huquqlar himoyalangan."
+  },
+  "mockup": {
+    "welcome": "Xush kelibsiz!",
+    "dashboard": "Sog‘lig‘ingiz boshqaruvi",
+    "consult": "Maslahat",
+    "pharmacy": "Dorixona",
+    "health_score": "Sog‘liq balli",
+    "recent_activity": "So‘nggi faollik",
+    "consultation_completed": "Maslahat yakunlandi",
+    "doctor_name": "Dr. Sarah Johnson"
+  }
+}
