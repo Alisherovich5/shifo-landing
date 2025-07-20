@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
 
   const handleChange = (value: string) => {
     const segments = pathname.split("/");
-    segments[1] = value; // locale ni o‘zgartiramiz
+    segments[1] = value;
     router.push(segments.join("/"));
   };
 
