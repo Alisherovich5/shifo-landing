@@ -1,5 +1,7 @@
 "use client";
 
+
+import emailjs from "emailjs-com";
 import LanguageSwitcher from "@/components/SelectLanguage";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -24,7 +26,7 @@ import {
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useState, FormEvent, ChangeEvent } from "react";
-import axios from "axios";
+import { toast } from "react-toastify";
 
 export default function Component() {
   const t = useTranslations();
@@ -36,42 +38,72 @@ export default function Component() {
   ];
 
   // Form state
-  const [formData, setFormData] = useState({
+
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [id]: value,
+    }));
+  };
+  
+
+  const initialFormData = {
     firstName: "",
     lastName: "",
     email: "",
     subject: "",
     message: "",
-  });
-  const [formStatus, setFormStatus] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  // Handle input changes
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target;
-    setFormData((prev) => ({ ...prev, [id]: value }));
   };
-
-  // Handle form submission
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  
+  const [formData, setFormData] = useState(initialFormData);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setFormStatus("");
-
-    try {
-      const response = await axios.post("/api/send-email", formData);
-      if (response.status === 200) {
-        setFormStatus(t("contact.form.success"));
-        setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" });
-      }
-    } catch (error) {
-      console.error("Form submission error:", error);
-      setFormStatus(t("contact.form.error"));
-    } finally {
+  
+    if (
+      !formData.firstName.trim() ||
+      !formData.lastName.trim() ||
+      !formData.email.trim() ||
+      !formData.subject.trim() ||
+      !formData.message.trim()
+    ) {
+      toast.error("❌ Iltimos, barcha maydonlarni to‘ldiring.");
       setIsSubmitting(false);
+      return;
     }
+  
+    const templateParams = {
+      from_name: `${formData.firstName} ${formData.lastName}`,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+  
+    emailjs
+      .send(
+        "service_6f4n09o", // misol: "service_9f8s87s"
+        "template_8z88ijl", // misol: "template_1a2b3c"
+        templateParams,
+        "Lg_bhdUAe2SNft5fz" // misol: "6nNNNN0-abCDEFGHIJ"
+      )
+      .then(
+        (result) => {
+          toast.success("✅ Muvaffaqiyatli yuborildi!");
+          setFormData(initialFormData);
+        },
+        (error) => {
+          toast.error("❌ Yuborishda xatolik yuz berdi.");
+          console.error(error);
+        }
+      )
+      .finally(() => setIsSubmitting(false));
   };
-
+  
+  
+  
   return (
       <div className="flex flex-col min-h-screen bg-white">
         {/* Header */}
@@ -549,15 +581,6 @@ export default function Component() {
                             required
                         />
                       </div>
-                      {formStatus && (
-                          <div
-                              className={`text-sm ${
-                                  formStatus.includes("success") ? "text-green-600" : "text-red-600"
-                              }`}
-                          >
-                            {formStatus}
-                          </div>
-                      )}
                       <Button
                           type="submit"
                           className="w-full bg-blue-600 hover:bg-blue-700 text-white"
