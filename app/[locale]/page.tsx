@@ -95,15 +95,6 @@ export default function Component() {
               </nav>
               <LanguageSwitcher />
             </div>
-
-            {/* Mobile menu button (non-functional, add logic if needed) */}
-            {/*<button className="md:hidden p-2 lg:hidden  ">*/}
-            {/*  <div className="w-5 h-5 flex flex-col justify-between">*/}
-            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
-            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
-            {/*    <span className="w-full h-0.5 bg-gray-600"></span>*/}
-            {/*  </div>*/}
-            {/*</button>*/}
           </div>
         </header>
 
@@ -600,7 +591,7 @@ export default function Component() {
 
               <div>
                 <h3 className="text-white font-medium mb-4">{t("footer.section1.title")}</h3>
-                <ul className="space-y-2">
+                <ul className="space-y-2 transition-all duration-300">
                   {navItems.map((link, linkIndex) => (
                       <li key={linkIndex}>
                         <Link href={link.href} className="text-gray-400 hover:text-white text-sm transition-colors">
