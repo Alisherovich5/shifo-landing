@@ -95,7 +95,7 @@ export default function Component() {
           setFormData(initialFormData);
         },
         (error) => {
-          toast.error("Yuborishda xatolik yuz berdi.");
+          toast.error(t("error_sending"));
           console.error(error);
         }
       )
@@ -130,19 +130,19 @@ export default function Component() {
           </div>
         </header>
 
-        <main className="flex-1 pt-16">
+        <main className="flex-1 pt-8">
           {/* Hero Section */}
           <section className="w-full pt-12 sm:py-16 lg:py-24">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-16">
-                <div className="space-y-8 text-center lg:text-left">
+                <div className="space-y-8 w-full text-center lg:text-left">
                   <div className="space-y-6">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                       {t("hero.title")}
                       <br />
                       <span className="text-blue-600">{t("hero.title_continue")}</span>
                     </h1>
-                    <p className="text-lg sm:text-xl text-gray-600 text-center sm:text-start">
+                    <p className="text-lg text-gray-600 text-center sm:text-start">
                       {t("hero.description")}
                     </p>
                   </div>
@@ -197,9 +197,8 @@ export default function Component() {
                     </div>
                   </div>
                 </div>
-                <div>
-                  <img className="w-72 h-[580px]" src="/iPhone.png" alt="iPhone" />
-                </div>
+                <img className="!w-72 !h-[580px]" src="/iPhone.png" alt="iPhone" />
+
               </div>            </div>
           </section>
 
@@ -405,7 +404,7 @@ export default function Component() {
                   <div className="flex items-center md:justify-center sm:justify-center   lg:justify-start gap-6 ">
                     <div className="text-center lg:text-left">
                       <div className="flex items-center justify-center lg:justify-start mb-2">
-                        <Download className="w-5 h-5 text-blue-200 mr-2" />
+                        <Download className="w-5 h-5 shrink-0 text-blue-200 mr-2" />
                         <div className="text-xl font-bold text-white">{t("download.free")}</div>
                       </div>
                       <div className="text-sm text-blue-200">{t("download.download")}</div>

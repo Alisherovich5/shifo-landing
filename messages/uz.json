@@ -1,61 +1,61 @@
 {
   "nav": {
-    "features": "Xususiyatlar",
+    "features": "Imkoniyatlar ",
     "about": "Biz haqimizda",
     "contact": "Aloqa"
   },
   "hero": {
-    "title": "Sog'liqni saqlash",
-    "title_continue": "Cho‘ntagingizda",
-    "description": "Sertifikatlangan shifokorlar, AI asosidagi sog‘liq tahlili va shaxsiy yordamga tezda ulaning.",
+    "title": "Sog'lig'ingizni saqlash",
+    "title_continue": "O'z cho'ntagingizda",
+    "description": "Sertifikatlangan shifokorlar, sun’iy intellekt asosidagi sog‘liqni tahlil qilish va shaxsiy tibbiy yordamga tez va oson ulanish.",
     "rating": "Ilova reytingi",
     "users": "Foydalanuvchilar",
-    "support": "Qo‘llab-quvvatlash"
+    "support": "Qo‘llab-quvvatlash markazi"
   },
   "download": {
-    "title": "Shifo24 ilovasini yuklab oling",
-    "description": "Shifo24’ga ishonadigan minglab foydalanuvchilarga qo‘shiling. iOS va Android’da mavjud.",
+    "title": "Shifo24 ilovasini hoziroq yuklab oling",
+    "description": "Shifo24 ilovasiga ishonadigan minglab foydalanuvchilar safiga qo‘shiling. iOS va Android qurilmalari uchun mavjud.",
     "appStore": "Yuklab oling",
     "appStore_continue": "App Store’dan",
     "googlePlay": "Yuklab oling",
     "googlePlay_continue": "Google Play’dan",
-    "free": "Bepul",
+    "free": "Mutlaqo bepul",
     "support": "24/7",
-    "download": "Yuklab olish va sozlash",
+    "download": "Hoziroq yuklab oling va sozlang",
     "qr_code": {
-      "heading": "Yuklab olish uchun skanerlash",
+      "heading": "Yuklab olish uchun skanerlang",
       "description": "Kamerangizni QR kodga tuting"
     }
   },
   "features": {
-    "app": "Ilova xususiyatlari",
+    "app": "Ilovaning asosiy funksiyalari",
     "sectionTitle": "Barchasi bir joyda",
-    "title_continue": "bitta ilovada",
-    "sectionDesc": "Zamonaviy hayotga moslashtirilgan keng qamrovli sog‘liqni saqlash xizmati – istalgan paytda, istalgan joyda.",
+    "title_continue": "va bitta ilovada",
+    "sectionDesc": "Zamonaviy hayot tarzingizga moslashtirilgan keng qamrovli sog‘liqni saqlash xizmati — istalgan vaqtda, istalgan joyda.",
     "item1": {
       "title": "Video maslahatlar",
-      "description": "24/7 mavjud yuqori sifatli videoqo‘ng‘iroqlar orqali shifokorlar bilan bog‘laning.",
-      "feature1": "HD video sifati",
+      "description": "Shifokorlar bilan 24/7 rejimda yuqori sifatli videoqo‘ng‘iroqlar orqali bog‘laning.",
+      "feature1": "HD Yuqori aniqlikdagi video sifati",
       "feature2": "Tezkor xabar almashish",
-      "feature3": "Raqamli retseptlar"
+      "feature3": "Elektron retseptlar"
     },
     "item2": {
       "title": "Aqlli jadval",
-      "description": "AI asosida uchrashuv belgilash, kalendarga ulash va avtomatik eslatmalar.",
+      "description": "Sun’iy intellekt yordamida uchrashuv belgilash, kalendarga ulash va avtomatik eslatmalar olish imkoniyati.",
       "feature1": "Kalendar bilan integratsiya",
       "feature2": "Aqlli eslatmalar",
       "feature3": "Oson o‘zgartirish"
     },
     "item3": {
-      "title": "Sog‘liqni monitoring qilish",
-      "description": "Hayotiy ko‘rsatkichlar, alomatlar va dori-darmonlarni kuzatish.",
+      "title": "Sog‘lig‘ingiz holatini kuzatib boring",
+      "description": "Hayotiy belgilar, simptomlar va dori vositalarini nazorat qilish.",
       "feature1": "Hayotiy ko‘rsatkichlar nazorati",
-      "feature2": "Alomatlar kundaligi",
-      "feature3": "Rivojlanish hisobotlari"
+      "feature2": "Simptomlar kundaligi",
+      "feature3": "Sog‘liq holati bo‘yicha rivojlanish hisobotlari"
     },
     "item4": {
-      "title": "Raqamli dorixona",
-      "description": "Retseptlarni buyurtma qilish, eslatmalar o‘rnatish va dori tarixini ko‘rish.",
+      "title": "Onlayn dorixona",
+      "description": "Dori retseptlarini buyurtma qilish, eslatmalarni sozlash va dori-darmonlar tarixini ko‘rish.",
       "feature1": "Retsept buyurtmalari",
       "feature2": "Dori eslatmalari",
       "feature3": "Yetkazib berishni kuzatish"
@@ -77,11 +77,11 @@
   },
   "about": {
     "about": "Shifo24 haqida",
-    "sectionTitle": "Texnologiya orqali",
-    "title_continue": "sog‘liqni o‘zgartirish",
-    "description": "Biz texnologiya va insoniy tajribani uyg‘unlashtirib, shaxsiylashtirilgan sog‘liqni ta’minlaymiz.",
+    "sectionTitle": "Sog‘lig‘ingizni raqamli tizimlar",
+    "title_continue": "yordamida yaxshilang",
+    "description": "Insoniy g‘amxo‘rlik va ilg‘or texnologiyalar uyg‘unligida — sog‘lig‘ingiz uchun shaxsiy yechimlar.",
     "item1": {
-      "title": "Darhol ulanish",
+      "title": "Shifokor bilan tezda bog‘laning",
       "description": "60 soniya ichida shifokor bilan bog‘laning"
     },
     "item2": {
@@ -90,14 +90,14 @@
     },
     "item3": {
       "title": "To‘liq tibbiy tarix",
-      "description": "Sog‘liq tarixi har qanday qurilmadan mavjud"
+      "description": "Sog‘liq haqidagi barcha ma’lumotlaringiz barcha qurilmalaringizda mavjud"
     },
     "stats": {
       "heading": "Ishonchli xizmat",
-      "description": "Minglab mamnun foydalanuvchilar qatoriga qo‘shiling",
+      "description": "Ishonch bildirgan minglab foydalanuvchilar qatoridan o‘rin oling",
       "item1": {
         "number": "100K+",
-        "label": "Bemorlar xizmat ko‘rgan"
+        "label": "Xizmat ko‘rsatilgan bemorlar soni"
       },
       "item2": {
         "number": "500+",
@@ -115,7 +115,7 @@
   },
   "contact": {
     "app": "Bog‘laning",
-    "sectionTitle": "Sog‘liq safaringizni",
+    "sectionTitle": "Sog‘liq yo‘lidagi sayohatingizni",
     "title_continue": "boshlashga tayyormisiz?",
     "description": "Bizning qo‘llab-quvvatlash jamoamiz 24/7 sizga yordam berishga tayyor.",
     "item1": {
@@ -153,7 +153,7 @@
   "footer": {
     "description": "Texnologiya orqali sog‘liqni yaxshilash. Sog‘lig‘ingiz – bizning ustuvorligimiz, 24/7 mavjud.",
     "section1": {
-      "title": "Xizmatlar",
+      "title": "Imkoniyatlar ",
       "link1": "Xususiyatlar",
       "link2": "Biz haqimizda",
       "link3": "Aloqa"
@@ -170,5 +170,6 @@
     "consultation_completed": "Maslahat yakunlandi",
     "doctor_name": "Dr. Sarah Johnson"
   },
-  "successfully_sent": "Muvaffaqiyatli yuborildi!"
+  "successfully_sent": "Muvaffaqiyatli yuborildi!",
+  "error_sending": "Yuborishda xatolik yuz berdi"
 }

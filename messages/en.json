@@ -7,55 +7,55 @@
   "hero": {
     "title": "Healthcare",
     "title_continue": "In Your Pocket",
-    "description": "Get instant access to certified doctors, AI-powered health insights, and personalized care.",
+    "description": "Quickly and easily connect to certified doctors, AI-powered health analysis, and personalized medical support",
     "rating": "App Rating",
     "users": "Users",
-    "support": "Support"
+    "support": "Customer Support Center"
   },
   "download": {
-    "title": "Download Shifo24 Today",
-    "description": "Join thousands of users who trust Shifo24. Available on iOS and Android.",
+    "title": "Download the Shifo24 app now",
+    "description": "Join thousands of users who trust the Shifo24 app. Available on iOS and Android.",
     "appStore": "Download on",
     "appStore_continue": "App Store",
     "googlePlay": "Get it on",
     "googlePlay_continue": "Google Play",
-    "free": "Free",
+    "free": "Absolutely free",
     "support": "24/7",
-    "download": "Download & Setup",
+    "download": "Download and set up now",
     "qr_code": {
       "heading": "Scan to Download",
       "description": "Point your camera at the QR code"
     }
   },
   "features": {
-    "app": "App Features",
+    "app": "Key Features of the App",
     "sectionTitle": "Everything You Need",
-    "title_continue": "In One App",
-    "sectionDesc": "Comprehensive healthcare services designed for modern life, accessible anytime, anywhere.",
+    "title_continue": "and In One App",
+    "sectionDesc": "A comprehensive healthcare service tailored to your modern lifestyle — anytime, anywhere.",
     "item1": {
       "title": "Video Consultations",
-      "description": "Connect with certified doctors through high-quality video calls, available 24/7.",
+      "description": "Connect with doctors 24/7 through high-quality video calls.",
       "feature1": "HD Video Quality",
       "feature2": "Instant Messaging",
-      "feature3": "Digital Prescriptions"
+      "feature3": "E-prescriptions"
     },
     "item2": {
       "title": "Smart Scheduling",
-      "description": "AI-powered appointment booking with calendar sync and automated reminders.",
+      "description": "AI-powered appointment scheduling, calendar integration, and automatic reminders.",
       "feature1": "Calendar Integration",
       "feature2": "Smart Reminders",
       "feature3": "Easy Rescheduling"
     },
     "item3": {
-      "title": "Health Monitoring",
-      "description": "Track your vitals, symptoms, and medications with detailed insights.",
-      "feature1": "Vital Tracking",
-      "feature2": "Symptom Logger",
-      "feature3": "Progress Reports"
+      "title": "Monitor your health",
+      "description": "Tracking vital signs, symptoms, and medications.",
+      "feature1": "Monitoring vital signs",
+      "feature2": "Symptom diary",
+      "feature3": "Health progress reports"
     },
     "item4": {
-      "title": "Digital Pharmacy",
-      "description": "Order prescriptions, set reminders, and track your medication history.",
+      "title": "E-pharmacy",
+      "description": "Order prescriptions, set reminders, and view medication history.",
       "feature1": "Prescription Orders",
       "feature2": "Medication Reminders",
       "feature3": "Delivery Tracking"
@@ -77,11 +77,11 @@
   },
   "about": {
     "about": "About Shifo24",
-    "sectionTitle": "Transforming Healthcare",
-    "title_continue": "Through Technology",
-    "description": "We combine cutting-edge technology with human expertise to deliver personalized healthcare experiences.",
+    "sectionTitle": "Improve your health with ",
+    "title_continue": "the power of digital solutions",
+    "description": "Personalized health solutions — where human care meets advanced technology.",
     "item1": {
-      "title": "Instant Access",
+      "title": "Instant connection with a doctor",
       "description": "Connect with healthcare professionals within 60 seconds"
     },
     "item2": {
@@ -90,14 +90,14 @@
     },
     "item3": {
       "title": "Complete Records",
-      "description": "Digital health history accessible from any device"
+      "description": "Your health history is available on all your devices"
     },
     "stats": {
       "heading": "Trusted Worldwide",
       "description": "Join thousands of satisfied users",
       "item1": {
         "number": "100K+",
-        "label": "Patients Served"
+        "label": "Patients we’ve helped"
       },
       "item2": {
         "number": "500+",
@@ -171,5 +171,6 @@
     "consultation_completed": "Consultation completed",
     "doctor_name": "Dr. Sarah Johnson"
   },
-  "successfully_sent": "Successfully sent!"
+  "successfully_sent": "Successfully sent!",
+  "error_sending": "There was an error sending."
 }
